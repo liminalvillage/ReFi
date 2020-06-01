@@ -1,0 +1,2 @@
+# microsolidarity
+Microsolidarity solstice call
