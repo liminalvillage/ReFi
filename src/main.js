@@ -5,7 +5,11 @@ import DefaultLayout from '~/layouts/Default.vue'
 import VueScrollTo from 'vue-scrollto'
 import VueFuse from 'vue-fuse'
 
-export default function (Vue, { router, head, isClient }) {
+export default function (Vue, {
+  router,
+  head,
+  isClient
+}) {
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
 
@@ -39,7 +43,7 @@ export default function (Vue, { router, head, isClient }) {
   // Add an external Javascript before the closing </body> tag
   head.script.push({
     src: 'https://js.tito.io/v1',
-    async: true, 
+    async: true,
     body: true
   })
 
@@ -48,11 +52,4 @@ export default function (Vue, { router, head, isClient }) {
     href: 'https://css.tito.io/v1.1'
   })
 
-  head.script.push({
-    TitoDevelopmentMode: true
-  })
-  
-  
 }
-
-
