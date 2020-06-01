@@ -26,7 +26,7 @@
 }
 
 .theme-dark .markdown-body {
-    color: #24292e;
+  color: #24292e;
 }
 
 .theme-dark .search-highlighted {
@@ -47,15 +47,15 @@
   --text-copy-primary: #cbd5e0;
   --text-copy-secondary: #e2e8f0;
 
-  --border-border-color-primary:  #1a202c;
+  --border-border-color-primary: #1a202c;
 }
 
 .theme-dark .markdown-body {
-    color: #cbd5e0;
+  color: #cbd5e0;
 }
 
 .theme-dark nav .active {
-    @apply border-white border-b;
+  @apply border-white border-b;
 }
 
 .content-wrapper {
@@ -117,4 +117,20 @@ nav .active {
   width: 100%;
   height: 100%;
   border: 0;
+}
+
+.tito-wrapper .tito-submit {
+  @apply mt-5 uppercase bg-purple-500 text-white rounded shadow z-10 w-full !important;
+}
+
+.tito-wrapper .tito-submit:hover {
+  @apply bg-purple-600 !important;
+}
+
+.tito-wrapper label.tito-ticket-name {
+  @apply text-purple-500 text-lg !important;
+}
+
+.tito-wrapper {
+  @apply border-0 bg-transparent !important;
 }
