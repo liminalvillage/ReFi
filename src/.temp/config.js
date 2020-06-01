@@ -1,8 +1,8 @@
 export default {
   "trailingSlash": true,
   "pathPrefix": "",
-  "titleTemplate": "%s - Gridsome Portfolio Starter",
-  "siteUrl": "https://gridsome-portfolio-starter.netlify.com",
+  "titleTemplate": "%s - Microsolidarity practice",
+  "siteUrl": "microsolidarity.hackalong.io",
   "version": "0.7.14",
   "catchLinks": true
 }

@@ -14,20 +14,15 @@
         <ul
           class="uppercase tracking-wide font-bold w-full block flex-grow lg:space-x-8 space-y-6 lg:space-y-0 lg:flex lg:flex-initial lg:w-auto items-center mt-8 lg:mt-0"
           :class="isOpen ? 'block': 'hidden'"
-        >
-          <li>
-            <theme-switcher :theme="theme" @themeChanged="updateTheme" />
-          </li>
+        > 
           <li>
             <a v-if="$route.path === '/'" href="/#about" v-scroll-to="'#about'" class="text-copy-primary hover:text-gray-600">Details</a>
             <g-link v-else to="/#about" class="text-copy-primary hover:text-gray-600">About</g-link>
-          </li>
+          </li> 
           <li>
-            <g-link to="/docs" class="text-copy-primary hover:text-gray-600">Docs</g-link>
-          </li>
-          <li>
-            <g-link to="/blog" class="text-copy-primary hover:text-gray-600">Blog</g-link>
-          </li>
+            <a v-if="$route.path === '/'" href="/#attend" v-scroll-to="'#attend'" class="text-copy-primary hover:text-gray-600">Attend</a>
+            <g-link v-else to="/#attend" class="text-copy-primary hover:text-gray-600">Attend</g-link>
+          </li>       
         </ul>
       </nav>
     </header>
