@@ -1,6 +1,6 @@
 <template>
   <div class="content-wrapper bg-background-primary font-sans text-copy-primary leading-normal flex flex-col min-h-screen" :class="theme">
-    <header class="border-t-14 border-purple-500">
+    <header class="border-t-14 border-purple-300">
       <nav class="container mx-auto flex flex-wrap justify-between items-center py-8">
         <div>
           <g-link v-if="theme === 'theme-light'" to="/"><g-image src="../../static/hackalonglogo1.png" class="w-40" alt="logo" /></g-link>

@@ -35,6 +35,9 @@
           <div class="text-lg sm:text-xl py-2"> Specifically, this call is to get together weekly for an hour a week over the course of a month to practice some of the methodologies which helped enSpiral to emerge. These are detailed in depth at <a href="https://www.microsolidarity.cc/">Microsolidarity.cc</a> though we'll be augmenting them with other evidance based approaches.</div>  
           
           <div class="text-lg sm:text-xl py-2"> Please sign up here: </div>
+          <tito-widget event="hackalong/microsolidarity-practice"> </tito-widget>
+          
+          
         </div>
 
         <!--! <div class="responsive-container">
@@ -48,7 +51,7 @@
         <h2 class="text-2xl font-bold mb-8">Join my Newsletter</h2>
 
         <div class="w-4/5 mx-auto mb-8">
-        <tito-widget event="ultimateconf/2013"></tito-widget>
+        
           <p class="mb-8 text-lg sm:text-xl">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, voluptatum. Quam, deleniti nulla.</p>
 
           <form action="#">

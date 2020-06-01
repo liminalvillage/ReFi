@@ -23,12 +23,12 @@ export default function (Vue, { router, head, isClient }) {
 
   head.meta.push({
     name: 'description',
-    content: 'Gridsome Portfolio Starter'
+    content: 'Microsolidarity practice call'
   })
 
   head.meta.push({
     name: 'author',
-    content: 'Andre Madarang'
+    content: 'Hackalong'
   })
 
   head.link.push({
@@ -42,6 +42,17 @@ export default function (Vue, { router, head, isClient }) {
     async: true, 
     body: true
   })
+
+  head.link.push({
+    rel: 'stylesheet',
+    href: 'https://css.tito.io/v1.1'
+  })
+
+  head.script.push({
+    TitoDevelopmentMode: true
+  })
+  
+  
 }
 
 
