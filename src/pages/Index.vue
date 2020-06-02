@@ -1,3 +1,10 @@
+ <!--
+          - Needs a bullet list on the programme
+          - Make it about the future not the past (i.e. remove past bits and make it inclusive)
+          - Team building activities
+          - Holon workshop
+          -->
+
 <template>
   <Layout>
     <div class="hero flex bg-white max-w-screen-xl overflow-hidden mx-auto rounded-lg border-solid border-1 shadow-lg m-5">
@@ -13,33 +20,96 @@
       </div>
     </div> <!-- end hero -->  
 
-    <div class="overflow-x-hidden border-gray-200 m-16">
-      <div class="get-to-know-me container-inner mx-auto text-xl pb-16 relative">
-        <h2 class="font-bold mb-6" id="about">Solstice Microsolidarity Jam:</h2>
 
-        <div class="absolute left-0" style="top: 50px; transform: translateX(-100%)">
-          <div class="-m-12"><g-image src="../../static/solstice1.png" alt="avatar" class="w-32 h-32 rounded-full mb-8 lg:mb-0" /></div>
+<!--
+    <div class="overflow-x-hidden border-gray-200 m-16"> -->
+    <div class="flex-wrap bg-white max-w-screen-xl mx-auto rounded-lg border-solid border-1 shadow-lg py-12 mt-12 "> 
+      <div class="get-to-know-me container-inner mx-auto text-xl relative">
+        <h2 class="font-bold mb-6" id="about">What is Microsolidarity?</h2>
+
+        <div class="absolute left-8" style="top: 50px; transform: translateX(-100%)">
+          <div class="-m-12"><g-image src="../../static/microsolidarity.png" alt="avatar" class="w-32 h-32 rounded-full mb-8 lg:mb-0" /></div>
           <svg width="170px" height="170px">></svg>
         </div>
 
         <div class="mb-16">
-          
-          <div class="text-lg sm:text-xl py-2"> June the 20th is Summer Solstice, which is also roughly 1 year from our first in person gathering. Since then many of us have been doing many things, and thanks to entropy its hard to say exactly what! </div>
-          
-          <div class="text-lg sm:text-xl py-2"> Thats ok - the collective has conserved energy and kept moving! The organism seems most healthy, but perhaps now is a good time to pause, reflect, reorient and recharge? </div>
-          
-          <div class="text-lg sm:text-xl py-2">In that spirit, this is a participatory call for those who wish to experience and practice some of the fruits we've picked in the last year, <strong> specificaly around self-governance. </strong> </div>
-          
-          <div class="text-lg sm:text-xl py-2"> The workshop will be a chance to get to know eachother better, deepen trusting relationships and practice new tools with eachother on this interpersonal journey we've embarked on. </div>
+          <div class="text-lg sm:text-xl py-2"> 
+          Microsolidarity is a methodology for peer-to-peer support which helps people to grow together in their personal and professional endevours. Join this practice week if your want...
+          </div>
 
-          <div class="text-lg sm:text-xl py-2"> Specifically, this call is to get together weekly for an hour a week over the course of a month to practice some of the methodologies which helped enSpiral to emerge. These are detailed in depth at <a href="https://www.microsolidarity.cc/">Microsolidarity.cc</a> though we'll be augmenting them with other evidance based approaches.</div>  
-          
-          <div class="text-lg sm:text-xl py-2" id="attend"> Please sign up here: </div>
-          <tito-widget event="hackalong/microsolidarity-practice"> </tito-widget>
-          
+          <div class="text-lg sm:text-xl py-2 px-12"> 
+          ...to develop collaboration within your networks by cultivating deeper connections
+          </div> 
 
+          <div class="text-lg sm:text-xl py-2 px-12"> 
+          ...to develop an enviroment where people care about eachothers well being and growth
+          </div> 
+          
+          <div class="text-lg sm:text-xl py-2 px-12"> 
+          ...to initiate or find a sense of belonging in community
+        </div>
+
+        <div class="text-lg sm:text-xl py-2"> 
+        Microsolidarity is a lens for thinking about self-organisation through, as such its a useful framework for comprehending complexity within living systems: </div>
+
+        <div class="text-lg sm:text-xl py-2 px-12"> 
+        • The largest scale is the <strong>crowd,</strong> this is essentially a mass gathering thats too large to know everybody in. As such trust is somewhat  limited.
+        </div> 
+        
+        <div class="text-lg sm:text-xl py-2 px-12"> 
+        • A congregation, <strong>collective</strong> or community is a group where people can recognise eachother but are not necessisarily connected on a particularly intimate level.
+        </div>     
+
+        <div class="text-lg sm:text-xl py-2 px-12"> 
+        • A <strong>crew</strong> of typically 3-6~ people who know eachother well and support eachother in their personal or professional development. 
+        </div>     
+        
+        <div class="text-lg sm:text-xl py-2 px-12"> 
+        • <strong>Dyadic</strong> relationships are groups of two, this is the smallest scale before the individual. Dont hack-alone! 
+        </div>     
+
+        <div class="text-lg sm:text-xl py-2 "> This is not to say its the only way of organising, but its a good toolbox of foundational language and concepts for orientating oneself when engulfed in the "natural chaos" of networked life. </div>
+
+        <div class="text-lg sm:text-xl py-2"> 
+          
+        </div>          
+
+        <!--
+        <div class="text-lg sm:text-xl py-2"> June the 20th is Summer Solstice, which is also roughly 1 year from our first in person gathering. Since then many of us have been doing many things, and thanks to entropy its hard to say exactly what! </div>
+        
+        <div class="text-lg sm:text-xl py-2"> Thats ok - the collective has conserved energy and kept moving! The organism seems most healthy, but perhaps now is a good time to pause, reflect, reorient and recharge? </div>
+        
+        <div class="text-lg sm:text-xl py-2">In that spirit, this is a participatory call for those who wish to experience and practice some of the fruits we've picked in the last year, <strong> specificaly around self-governance. </strong> </div>
+        
+        <div class="text-lg sm:text-xl py-2"> The workshop will be a chance to get to know eachother better, deepen trusting relationships and practice new tools with eachother on this interpersonal journey we've embarked on. </div>
+
+        <div class="text-lg sm:text-xl py-2"> Specifically, this call is to get together weekly for an hour a week over the course of a month to practice some of the methodologies which helped enSpiral to emerge. These are detailed in depth at <a href="https://www.microsolidarity.cc/">Microsolidarity.cc</a> though we'll be augmenting them with other evidance based approaches.</div>  
+
+        -->    
         </div>
       </div> 
+    </div>
+    
+    
+    <div class="flex-wrap bg-white max-w-screen-xl mx-auto rounded-lg border-solid border-1 shadow-lg mb-12 m-12"> 
+      <div class="text-3xl font-bold text-black leading-tight m-4 py-8 px-24">Programme
+        </div> 
+        <div class="text-lg font-bold text-black leading-tight m-4 py-2 px-40">Session 1 - Introductions
+          <div class="text-lg font-normal leading-tight py-2"> Introduction to the concepts, getting to know eachother, practicing communication in pairs and in groups </div>
+        </div> 
+        <div class="text-lg font-bold text-black leading-tight m-4 py-2 px-40">Session 2 - Relating
+          <div class="text-lg font-normal leading-tight py-2"> Going deeper with eachother to create an authentic sense of interrealtion in which its safe to connect </div>
+        </div>
+        <div class="text-lg font-bold text-black leading-tight m-4 py-2 px-40">Session 3 - Crews
+          <div class="text-lg font-normal leading-tight py-2"> Discovering the differnt flavours of crewing; learning, emotional support, professional development </div>
+        </div>
+        <div class="text-lg font-bold text-black leading-tight m-4 py-2 px-40">Session 4 - Congregating
+          <div class="text-lg font-normal leading-tight py-2 "> Minimal viable structure and self-organisation; open space technology and the laws of two feet  </div>
+        </div>
+        <div class="text-lg font-bold text-black leading-tight m-4 py-2 px-24 mb-12" id="attend">
+          <tito-widget event="hackalong/microsolidarity-practice"> </tito-widget>    
+        </div>
+      </div>
     </div>
 
     <div class="newsletter bg-background-tertiary">
@@ -47,9 +117,7 @@
         <h2 class="text-2xl font-bold mb-8">Life's a game of participatory patterning right?</h2>
 
         <div class="w-4/5 mx-auto mb-8">
-        
-          <p class="mb-8 text-lg sm:text-xl"> The right people come </p>
-
+          <p class="mb-8 text-lg sm:text-xl"> The right people show up </p>
         </div>
       </div>
 
