@@ -134,3 +134,22 @@ nav .active {
 .tito-wrapper {
   @apply border-0 bg-transparent !important;
 }
+
+.bg-cell {
+  position: relative;
+  overflow: hidden;
+}
+
+.bg-cell:before {
+  position: absolute;
+  content: '';
+  display: block;
+  width: 100vw;
+  height: 100%;
+  opacity: 0.1;
+  background-image: url(~@/assets/cell_light.svg);
+  background-size: 25vw;
+  background-position: 50% -25%;
+  background-repeat: no-repeat;
+  @apply top-0;
+}
