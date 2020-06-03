@@ -1,6 +1,4 @@
  <!--
-          - Needs a bullet list on the programme
-          - Make it about the future not the past (i.e. remove past bits and make it inclusive)
           - Team building activities
           - Holon workshop
           -->
