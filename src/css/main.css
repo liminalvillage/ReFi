@@ -119,21 +119,30 @@ nav .active {
   border: 0;
 }
 
-.tito-wrapper .tito-submit {
+tito-widget {
+  @apply border-0 bg-transparent !important;
+}
+
+tito-widget .tito-wrapper {
+  @apply border-0 bg-transparent !important;
+}
+
+tito-widget .tito-submit {
   @apply mt-5 uppercase bg-purple-500 text-white rounded shadow z-10 w-full !important;
 }
 
-.tito-wrapper .tito-submit:hover {
+
+tito-widget .tito-submit:hover {
   @apply bg-purple-600 !important;
 }
 
-.tito-wrapper label.tito-ticket-name {
+
+tito-widget .tito-ticket-name {
   @apply text-purple-500 text-lg !important;
 }
 
-.tito-wrapper {
-  @apply border-0 bg-transparent !important;
-}
+
+
 
 .bg-cell {
   position: relative;

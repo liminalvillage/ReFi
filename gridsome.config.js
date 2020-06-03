@@ -8,8 +8,7 @@ module.exports = {
   siteName: 'Microsolidarity practice',
   siteDescription: 'A Hackalong community gathering',
   siteUrl: 'microsolidarity.hackalong.io',
-  plugins: [
-    {
+  plugins: [{
       use: 'gridsome-plugin-tailwindcss',
       options: {
         purgeConfig: {
@@ -32,6 +31,10 @@ module.exports = {
             'g-image--lazy',
             'g-image--loaded',
             'active',
+            'tito-ticket-name',
+            'tito-wrapper',
+            'tito-submit',
+            'tito-widget'
           ],
           defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || []
         },
@@ -45,8 +48,11 @@ module.exports = {
         pathPrefix: '/docs', // Add route prefix. Optional
         template: './src/templates/Documentation.vue', // Optional
         plugins: [
-          [ 'gridsome-plugin-remark-shiki', { theme: 'Material-Theme-Palenight', skipInline: true } ]
-      ],
+          ['gridsome-plugin-remark-shiki', {
+            theme: 'Material-Theme-Palenight',
+            skipInline: true
+          }]
+        ],
       }
     },
     {
@@ -97,7 +103,10 @@ module.exports = {
   transformers: {
     remark: {
       plugins: [
-        [ 'gridsome-plugin-remark-shiki', { theme: 'Material-Theme-Palenight', skipInline: true } ]
+        ['gridsome-plugin-remark-shiki', {
+          theme: 'Material-Theme-Palenight',
+          skipInline: true
+        }]
       ],
       externalLinksTarget: '_blank',
       externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],

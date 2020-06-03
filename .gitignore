@@ -9,3 +9,4 @@ src/_drafts
 package-lock.json
 .cache
 src/.temp
+dist/

@@ -36,77 +36,88 @@
       class="flex-wrap bg-white text-black max-w-screen-xl mx-auto rounded-lg border-solid border-1 shadow-lg py-12 mt-12"
     >
       <div class="get-to-know-me container-inner mx-auto text-xl relative">
-      <div id="details">
-        <h2 class="font-bold mb-6" id="about">What is Microsolidarity?</h2>
+        <div id="details">
+          <h2 class="font-bold mb-6" id="about">What is Microsolidarity?</h2>
 
-        <div class="absolute left-8" style="top: 50px; transform: translateX(-100%)">
-          <div class="-m-12">
-            <g-image
-              src="../../static/microsolidarity.png"
-              alt="avatar"
-              class="w-32 h-32 rounded-full mb-8 lg:mb-0"
-            />
+          <div class="absolute left-8" style="top: 50px; transform: translateX(-100%)">
+            <div class="-m-12">
+              <g-image
+                src="../../static/microsolidarity.png"
+                alt="avatar"
+                class="w-32 h-32 rounded-full mb-8 lg:mb-0"
+              />
+            </div>
+            <svg width="170px" height="170px">></svg>
           </div>
-          <svg width="170px" height="170px">></svg>
-        </div>
 
-        <div class="text-lg sm:text-xl py-2"> 
-            Microsolidarity is a lens for thinking about self-organisation through. Its a useful framework for comprehending complexity within living systems and when dealing with such <i>"the success of an intervention depends on the interior condition of the intervener":</i>
+          <div class="text-lg sm:text-xl py-2">
+            Microsolidarity is a lens for thinking about self-organisation through. Its a useful framework for comprehending complexity within living systems and when dealing with such
+            <i>"the success of an intervention depends on the interior condition of the intervener":</i>
+          </div>
+
+          <div
+            class="text-lg sm:text-xl py-2 px-12"
+          >• It starts with yourself, on your own trip and comfortable in your own skin.</div>
+
+          <div class="text-lg sm:text-xl py-2 px-12">
+            • Groups of two are called
+            <strong>dyads</strong> which is the smallest unit of solidarity. Find the others, dont "hack-alone"!
           </div>
 
           <div class="text-lg sm:text-xl py-2 px-12">
-            • It starts with yourself, on your own trip and comfortable in your own skin.
+            • A
+            <strong>crew</strong> is typically 3-6~ people who know eachother well and may support eachother in their personal or professional development amongst other things.
           </div>
 
           <div class="text-lg sm:text-xl py-2 px-12">
-            • Groups of two are called <strong>dyads</strong> which is the smallest unit of solidarity. Find the others, dont "hack-alone"!
+            • A congregation,
+            <strong>collective</strong> or community is a group where people can recognise eachother but are not necessisarily connected on a particularly intimate level.
           </div>
 
           <div class="text-lg sm:text-xl py-2 px-12">
-            • A <strong>crew</strong> is typically 3-6~ people who know eachother well and may support eachother in their personal or professional development amongst other things.
+            • The largest scale is the
+            <strong>crowd,</strong> this is essentially a mass gathering thats too large to know everybody in. As such trust is somewhat limited.
           </div>
 
-           <div class="text-lg sm:text-xl py-2 px-12">
-            • A congregation, <strong>collective</strong> or community is a group where people can recognise eachother but are not necessisarily connected on a particularly intimate level.
-          </div>
-
-          <div class="text-lg sm:text-xl py-2 px-12">
-            • The largest scale is the <strong>crowd,</strong> this is essentially a mass gathering thats too large to know everybody in. As such trust is somewhat limited.
-          </div>
-
-          <div class="text-lg sm:text-xl py-2"> 
-          This is not to say its the only way of organising, but its a good toolbox of foundational language and concepts for orientating oneself when engulfed in the "natural chaos" of networked life.
-          </div>
-
+          <div
+            class="text-lg sm:text-xl py-2"
+          >This is not to say its the only way of organising, but its a good toolbox of foundational language and concepts for orientating oneself when engulfed in the "natural chaos" of networked life.</div>
         </div>
       </div>
     </div>
 
-    <div class="flex-wrap bg-white max-w-screen-xl mx-auto rounded-lg border-solid border-1 shadow-lg mb-12 m-12">
+    <div
+      class="flex-wrap bg-white max-w-screen-xl mx-auto rounded-lg border-solid border-1 shadow-lg mb-12 m-12"
+    >
       <div id="attend">
-      <div class="text-3xl font-bold text-black leading-tight m-4 py-8 px-24">Programme</div>
-      <div class="text-lg font-bold text-black leading-tight m-4 py-2 px-20 md:px-40">
-        Session 1 - Introductions
-        <div
-          class="text-lg font-normal leading-tight py-2"
-        >Introduction to the concepts, getting to know eachother, practicing communication in pairs and in groups</div>
-      </div>
-      <div class="text-lg font-bold text-black leading-tight m-4 py-2 px-20 md:px-40">
-        Session 2 - Relating
-        <div class="text-lg font-normal leading-tight py-2"> 
-        Going deeper with eachother to create an authentic sense of interrealtion in which its safe to connect</div>
-      </div>
-      <div class="text-lg font-bold text-black leading-tight m-4 py-2 px-20 md:px-40">
-        Session 3 - Crews
-        <div class="text-lg font-normal leading-tight py-2"
-        >Discovering the differnt flavours of crewing; learning, emotional support, professional development</div>
-      </div>
-      <div class="text-lg font-bold text-black leading-tight m-4 py-2 px-20 md:px-40">
-        Session 4 - Congregating
-        <div class="text-lg font-normal leading-tight py-2"
-        >Minimal viable structure and self-organisation; open space technology and the laws of two feet</div>
-      </div>
-        <tito-widget event="hackalong/microsolidarity-practice"></tito-widget>
+        <div class="text-3xl font-bold text-black leading-tight m-4 py-8 px-24">Programme</div>
+        <div class="text-lg font-bold text-black leading-tight m-4 py-2 px-20 md:px-40">
+          Session 1 - Introductions
+          <div
+            class="text-lg font-normal leading-tight py-2"
+          >Introduction to the concepts, getting to know eachother, practicing communication in pairs and in groups</div>
+        </div>
+        <div class="text-lg font-bold text-black leading-tight m-4 py-2 px-20 md:px-40">
+          Session 2 - Relating
+          <div
+            class="text-lg font-normal leading-tight py-2"
+          >Going deeper with eachother to create an authentic sense of interrealtion in which its safe to connect</div>
+        </div>
+        <div class="text-lg font-bold text-black leading-tight m-4 py-2 px-20 md:px-40">
+          Session 3 - Crews
+          <div
+            class="text-lg font-normal leading-tight py-2"
+          >Discovering the differnt flavours of crewing; learning, emotional support, professional development</div>
+        </div>
+        <div class="text-lg font-bold text-black leading-tight m-4 py-2 px-20 md:px-40">
+          Session 4 - Congregating
+          <div
+            class="text-lg font-normal leading-tight py-2"
+          >Minimal viable structure and self-organisation; open space technology and the laws of two feet</div>
+        </div>
+        <div class="py-4">
+          <tito-widget event="hackalong/microsolidarity-practice"></tito-widget>
+        </div>
       </div>
     </div>
 
