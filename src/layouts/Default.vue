@@ -16,8 +16,8 @@
           :class="isOpen ? 'block': 'hidden'"
         > 
           <li>
-            <a v-if="$route.path === '/'" href="/#about" v-scroll-to="'#about'" class="text-copy-primary hover:text-gray-600">Details</a>
-            <g-link v-else to="/#about" class="text-copy-primary hover:text-gray-600">About</g-link>
+            <a v-if="$route.path === '/'" href="/#details" v-scroll-to="'#details'" class="text-copy-primary hover:text-gray-600">Details</a>
+            <g-link v-else to="/#details" class="text-copy-primary hover:text-gray-600">Details</g-link>
           </li> 
           <li>
             <a v-if="$route.path === '/'" href="/#attend" v-scroll-to="'#attend'" class="text-copy-primary hover:text-gray-600">Attend</a>
