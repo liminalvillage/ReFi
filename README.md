@@ -1,4 +1,4 @@
-# Microsolidarity practice call
+# ReFi Spring 2022 call website
 
 Gridsome static site generator (Vue.js), used the "portfolio starter" theme and then customised. 
 Tito ticketing script
